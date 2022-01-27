@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #f55a5a;
+  width: auto;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav-img {
+  width: 24px;
+  height: auto;
+}
+
+nav > p {
+  padding-left: 7px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
